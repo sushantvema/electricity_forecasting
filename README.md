@@ -1,0 +1,6 @@
+# Price Forecasting Exercise
+
+This task involves building a Python program to forecast electricity prices using a dataset containing 15-minute interval electricity prices and ambient temperature for Barstow, California. The column rt_price is known as Locational Marginal Price, which is the price of electricity at a specific location in the power grid at a particular point in time. The column dah_price is the day-ahead electricity price and refers to the price at which electricity is bought and sold for delivery the following day. The program should implement a forecast model that considers temperature and predicts the LMP price 24 steps into the future (equivalent to 6 hours). Additionally, it should provide accuracy metrics such as Root Mean Squared Error (RMSE), Percentage Error (PE), Mean Absolute Percentage Error (MAPE), etc. Furthermore, the program should compare the accuracy between on-peak hours (8 am – midnight) and off-peak hours (midnight-8 am).
+
+Please include a summary of your analysis including an explanation of your methodology and key findings. Feel free to include visualizations if relevant. The team should be able to run your code and reproduce results out of the box. If additional setup (third party libraries etc.) is required, please include it in the summary.
+
